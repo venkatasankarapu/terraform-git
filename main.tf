@@ -10,7 +10,7 @@ resource "aws_instance" "Nike-Test"  {
   instance_type = "t2.micro"
    
   tags = {
-     name ="Nike-testcode"
+     name ="Nike-test"
    }
 }
 
