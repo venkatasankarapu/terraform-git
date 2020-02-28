@@ -1,5 +1,6 @@
 #!/bin/sh
-yum install -y httpd
-service start httpd
-chkonfig httpd on
-echo "<html><h1>Hello from Pavan Created the Webserver for NIKE Interview</h2></html>" > /var/www/html/index.html
+sudo apt update
+sudo apt install -y apache2 apache2-bin apache2-utils
+sudo systemctl enable apache2
+sudo systemctl start apache2
+echo "<html><h1>Hello from Pavan Created the Webserver for Interview</h2></html>" > /var/www/html/index.html
